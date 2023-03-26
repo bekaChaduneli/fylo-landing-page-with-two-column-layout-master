@@ -1,123 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href = "style.css" rel = "stylesheet">
-  <title>Frontend Mentor | Fylo-landing-page-with-two-column-layer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <div class = "background-box">
-  </div>
-  <div class = "paddinger">
-    <img class="logo" src="https://raw.githubusercontent.com/george199626/Fylo-landing-page-master/98f0a27173c3b0751cab05506391e7e2e4234ea0/images/logo.svg" alt="logo" />
-    <div class = "first-conteiner">
-      <h1 class = "first-conteiner-text">Features</h1>
-      <h1 class = "first-conteiner-text">Team</h1>
-      <h1 class = "first-conteiner-text">Sign In</h1>  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Frontend Mentor | Fylo-landing-page-with-two-column-layer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="background-box"></div>
+    <div class="paddinger">
+      <img
+        class="logo"
+        src="https://raw.githubusercontent.com/george199626/Fylo-landing-page-master/98f0a27173c3b0751cab05506391e7e2e4234ea0/images/logo.svg"
+        alt="logo"
+      />
+      <div class="first-conteiner">
+        <h1 class="first-conteiner-text">Features</h1>
+        <h1 class="first-conteiner-text">Team</h1>
+        <h1 class="first-conteiner-text">Sign In</h1>
+      </div>
+      <div class="desktop-conteiner">
+        <div class="center">
+          <img
+            class="illustration"
+            src="https://raw.githubusercontent.com/george199626/Fylo-landing-page-master/e343c111a6f146be13143393032552f739e72632/images/illustration-1.svg"
+            alt="image"
+          />
+        </div>
+        <div class="email-conteiner">
+          <h1 class="file-headline">
+            All your files in one secure location, accessible anywhere.
+          </h1>
+          <h1 class="file-text">
+            Fylo stores your most important files in one secure location. Access
+            them wherever you need, share and collaborate with friends, family,
+            and co-workers.
+          </h1>
+          <form action="" id="form">
+            <input
+              class="input"
+              placeholder="Enter your email..."
+              type="email"
+              id="email-input"
+              required
+            />
+            <button type="submit" id="start-button">Get Started</button>
+          </form>
+          <p class="hidden" id="check-mail">Please check your email</p>
+          <p class="hidden" id="enter-email">
+            Please enter your email before you start
+          </p>
+        </div>
+      </div>
     </div>
-    <div class = "desktop-conteiner">
-      <div class = "center">
-        <img class = "illustration" src="https://raw.githubusercontent.com/george199626/Fylo-landing-page-master/e343c111a6f146be13143393032552f739e72632/images/illustration-1.svg" alt="image" />
-      </div>
-      <div class = "email-conteiner">
-        <h1 class = "file-headline">All your files in one secure location, accessible anywhere.</h1>
-      <h1 class = "file-text">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</h1>
-      <form action = "" id = "form">
-        <input class = "input" placeholder = "Enter your email..." type = "email" id = "email-input" required >
-        <button type = "submit" id = "start-button">Get Started</button>
-      </form>
-      <p class="hidden" id="check-mail">Please check your email</p>
-      <p class="hidden" id="enter-email">Please enter your email before you start</p>
-      </div>
-    </div>
-    
-  </div>
-  <div class = "background-color">
-    <div class = "background-border"></div>
-    <div class = "second-conteiner">
-      <img  class = "second-image" src = "https://raw.githubusercontent.com/george199626/Fylo-landing-page-master/e343c111a6f146be13143393032552f739e72632/images/illustration-2.svg">
-      <div>
-        <h1 class = "second-conteiner-headline">Stay productive, wherever you are</h1>
-      <p class = "second-conteiner-text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-      <p class = "second-conteiner-text">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
-      <div class = "works-conteiner">
-        <h1 class = "fylo-text">See how Fylo works</h1>
-          <img class = "arrow" src = "images/icon-arrow.svg">
-      </div>
-      <div class = "center-works"><div class = "works-conteiner-outline"></div></div>
-      <div class = "center-third-conteiner">
-        <div class ="third-conteiner">
-          <svg class = "quotes" width="13" height="12" xmlns="http://www.w3.org/2000/svg"><text transform="translate(-34 -25)" fill="#07043B" fill-rule="evenodd" font-family="Helvetica" font-size="45"><tspan x="33" y="56">“</tspan></text></svg>
-          <h1 class = "third-conteiner-text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</h1>
-          <div class = "avatar-conteiner">
-            <img class = "avatar" src = "images/avatar-testimonial.jpg">
-            <div>
-              <h1 class = "avatar-headline">Kyle Burton</h1>
-              <h1 class = "avatar-text">Founder & CEO, Huddle</h1>
+    <div class="background-color">
+      <div class="background-border"></div>
+      <div class="second-conteiner">
+        <img
+          class="second-image"
+          src="https://raw.githubusercontent.com/george199626/Fylo-landing-page-master/e343c111a6f146be13143393032552f739e72632/images/illustration-2.svg"
+        />
+        <div>
+          <h1 class="second-conteiner-headline">
+            Stay productive, wherever you are
+          </h1>
+          <p class="second-conteiner-text">
+            Never let location be an issue when accessing your files. Fylo has
+            you covered for all of your file storage needs.
+          </p>
+          <p class="second-conteiner-text">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
+          </p>
+          <div class="works-conteiner">
+            <h1 class="fylo-text">See how Fylo works</h1>
+            <img class="arrow" src="images/icon-arrow.svg" />
+          </div>
+          <div class="center-works">
+            <div class="works-conteiner-outline"></div>
+          </div>
+          <div class="center-third-conteiner">
+            <div class="third-conteiner">
+              <svg
+                class="quotes"
+                width="13"
+                height="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <text
+                  transform="translate(-34 -25)"
+                  fill="#07043B"
+                  fill-rule="evenodd"
+                  font-family="Helvetica"
+                  font-size="45"
+                >
+                  <tspan x="33" y="56">“</tspan>
+                </text>
+              </svg>
+              <h1 class="third-conteiner-text">
+                Fylo has improved our team productivity by an order of
+                magnitude. Since making the switch our team has become a
+                well-oiled collaboration machine.
+              </h1>
+              <div class="avatar-conteiner">
+                <img class="avatar" src="images/avatar-testimonial.jpg" />
+                <div>
+                  <h1 class="avatar-headline">Kyle Burton</h1>
+                  <h1 class="avatar-text">Founder & CEO, Huddle</h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="forth-conteiner">
+      <div class="forth-conteiner-first-order">
+        <h1 class="forth-conteiner-headline">Get early access today</h1>
+        <p class="forth-conteiner-text">
+          It only takes a minute to sign up and our free starter tier is
+          extremely generous. If you have any questions, our support team would
+          be happy to help you.
+        </p>
       </div>
-      
-  </div>
-  <div class = "forth-conteiner">
-    <div class = "forth-conteiner-first-order">
-      <h1 class = "forth-conteiner-headline">Get early access today</h1>
-    <p class = "forth-conteiner-text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+      <form class="form" id="second-form" action="">
+        <input
+          class="forth-conteiner-input"
+          placeholder="email@example.com"
+          type="email"
+          id="second-email-input"
+          required
+        />
+        <p class="hidden" id="second-check-mail">Please check your email</p>
+        <button
+          class="forth-conteiner-start-button"
+          type="submit"
+          id="forth-conteiner-start-button"
+        >
+          Get Started For Free
+        </button>
+      </form>
     </div>
-    <form class = "form" id = "second-form" action = "">
-      <input class = "forth-conteiner-input" placeholder = "email@example.com" type = "email" id = "second-email-input" required >
-      <p class="hidden" id="second-check-mail">Please check your email</p>
-      <button class = "forth-conteiner-start-button" type = "submit" id = "forth-conteiner-start-button">Get Started For Free</button>
-    </form>
-  </div>
-  <div class = "last-conteiner">
-    <div>
-      <img class = "logo-background" src = "images/logo.svg">
-    <div class = "phone">
-      <img class = "phone-logo" src = "images/icon-phone.svg">
-      <h1 class = "phone-txt">Phone: +1-543-123-4567</h1>
-    </div>
-    <div class = "mail">
-      <img class = "mail-logo" src = "images/icon-email.svg">
-      <h1 class = "mail-txt">example@fylo.com</h1>
-    </div>
-    </div>
-    <span  class = "links-box">
-      <span class = "links">
-        <h1 class = "first-headline">About Us</h1>
-        <h1 class = "second-headline">Jobs</h1>
-        <h1 class = "third-headline">Press</h1>
-        <h1 class = "forth-headline">Blog</h1>
-      </span>
-      <span class = "links-two">
-        <h1 class = "fifth-headline">Contact Us</h1>
-        <h1 class = "sixth-headline">Terms</h1>
-        <h1 class = "seventh-headline">Privacy</h1>
-      </span>
-      <div class = "center-social">
-        <div class = "socials">
-          <div class = "facebook-box">
-            <img class = "facebook" src = "images/59439.png">
-          </div>
-          <div class = "instagram-box">
-            <img class = "instagram" src = "images/instagram-logo.svg">
-          </div>
-          <div class = "twitter-box">
-            <img class = "twitter" src = "images/Twitter-logo.svg.png">
-          </div>
+    <div class="last-conteiner">
+      <div>
+        <img class="logo-background" src="images/logo.svg" />
+        <div class="phone">
+          <img class="phone-logo" src="images/icon-phone.svg" />
+          <h1 class="phone-txt">Phone: +1-543-123-4567</h1>
+        </div>
+        <div class="mail">
+          <img class="mail-logo" src="images/icon-email.svg" />
+          <h1 class="mail-txt">example@fylo.com</h1>
         </div>
       </div>
-    </span>
-  </div>
-</body>
+      <span class="links-box">
+        <span class="links">
+          <h1 class="first-headline">About Us</h1>
+          <h1 class="second-headline">Jobs</h1>
+          <h1 class="third-headline">Press</h1>
+          <h1 class="forth-headline">Blog</h1>
+        </span>
+        <span class="links-two">
+          <h1 class="fifth-headline">Contact Us</h1>
+          <h1 class="sixth-headline">Terms</h1>
+          <h1 class="seventh-headline">Privacy</h1>
+        </span>
+        <div class="center-social">
+          <div class="socials">
+            <div class="facebook-box">
+              <img class="facebook" src="images/59439.png" />
+            </div>
+            <div class="instagram-box">
+              <img class="instagram" src="images/instagram-logo.svg" />
+            </div>
+            <div class="twitter-box">
+              <img class="twitter" src="images/Twitter-logo.svg.png" />
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </body>
 </html>
